@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proauto - Login </title>
+    <link rel="stylesheet" href="../assets/estilo/style.css">
+    <link rel="icon" href="../assets/imagens/logo_3.png" type="image/png">
+</head>
+<body>
+    <div class="container"> 
+        <header>
+            <div class="logoWeb">
+                <img src="../assets/imagens/logo.webp" alt="Logo" srcset="" id="logoWeb">
+            </div>
+            <div class="logoMobile">
+                <img src="../assets/imagens/logo_3.png" alt="logo" srcset="" class="logoIcon">
+                <img src="../assets/imagens/logo_2.png" alt="nome da logo" srcset="" class="logoApp">
+            </div>
+        </header>
+        <main>
+            <div class="boxText">
+                <p>Por favor, insira seu CPF e a placa do carro para autenticação.</p>
+            </div>
+            <form id="loginForm" method="post">
+
+                <div class="txt_field">
+                <input type="number" id="cpf"   required>
+                <span></span>
+                <label>CPF</label>
+                </div>
+                
+                <div class="txt_field">
+                <input type="text" id="placa" required>
+                <span></span>
+                <label>Placa do Carro</label>
+                </div>
+
+                <div class="log">
+                    <input type="checkbox">
+                    Salvar dados 
+                </div>
+                <div class="btn">
+                    <button type="submit" class="btnLogin">Entrar</button>
+                </div>
+                </form>
+                </div>
+        </main>
+    </div>
+    <script src="../assets/script/script.js"></script>
+</body>
+</html>
